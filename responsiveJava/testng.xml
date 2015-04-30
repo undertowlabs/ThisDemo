@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Java Responsive Web" parallel="tests">
+	<test name="Sign up for home delivery - Galaxy S5">
+		<parameter name="targetEnvironment" value="Galaxy S5" />
+		<classes>
+			<class name="test.java.TestHomeDeliverySignup">
+			    <methods>
+			        <include name="openHomepage" />
+			        <include name="enterZipCode" />
+			        <include name="selectLength" />
+			        <include name="enterDetails" />
+			        <include name="testTearDown" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+	
+	  
+	
+	<test name="Sign up for home delivery - iPhone 6">
+		<parameter name="targetEnvironment" value="iPhone 6" />
+		<classes>
+			<class name="test.java.TestHomeDeliverySignup">
+			    <methods>
+			        <include name="openHomepage" />
+			        <include name="enterZipCode" />
+			        <include name="selectLength" />
+			        <include name="enterDetails" />
+			         <include name="testTearDown" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+ 
+
+	<test name="Sign up for home delivery - IE 10">
+		<parameter name="targetEnvironment" value="Internet Explorer 10" />
+		<classes>
+			<class name="test.java.TestHomeDeliverySignup">
+			    <methods>
+			        <include name="openHomepage" />
+			        <include name="enterZipCode" />
+			        <include name="selectLength" />
+			        <include name="enterDetails" />
+			         <include name="testTearDown" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Sign up for home delivery - FF 34">
+		<parameter name="targetEnvironment" value="Firefox 34" />
+		<classes>
+			<class name="test.java.TestHomeDeliverySignup">
+			    <methods>
+			        <include name="openHomepage" />
+			        <include name="enterZipCode" />
+			        <include name="selectLength" />
+			        <include name="enterDetails" />
+			         <include name="testTearDown" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+	<test name="Sign up for home delivery - FF 35">
+		<parameter name="targetEnvironment" value="Firefox 35" />
+		<classes>
+			<class name="test.java.TestHomeDeliverySignup">
+			    <methods>
+			        <include name="openHomepage" />
+			        <include name="enterZipCode" />
+			        <include name="selectLength" />
+			        <include name="enterDetails" />
+			         <include name="testTearDown" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+	<test name="Sign up for home delivery - Chrome">
+		<parameter name="targetEnvironment" value="Chrome" />
+		<classes>
+			<class name="test.java.TestHomeDeliverySignup">
+			    <methods>
+			        <include name="openHomepage" />
+			        <include name="enterZipCode" />
+			        <include name="selectLength" />
+			        <include name="enterDetails" />
+			         <include name="testTearDown" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+
+	<test name="Sign up for home delivery - IE 11">
+		<parameter name="targetEnvironment" value="Internet Explorer 11" />
+		<classes>
+			<class name="test.java.TestHomeDeliverySignup">
+			    <methods>
+			        <include name="openHomepage" />
+			        <include name="enterZipCode" />
+			        <include name="selectLength" />
+			        <include name="enterDetails" />
+			         <include name="testTearDown" />
+			    </methods>
+			    
+			</class>
+		</classes>
+	</test>
+
+
+</suite> 
